@@ -19,9 +19,9 @@ class auto(Vehiculo):
         self.Velocidad = Velocidad
         self.Cilindrada = Cilindrada
 
-miAuto = auto("Verde","4","4","160","1596cc")
-print("La velocidad: ", miAuto.Velocidad)
-print("La cilindrada: ", miAuto.Cilindrada)
+miAuto = auto("Verde","4","4","160","1596")
+print("La velocidad: ", miAuto.Velocidad,"km/h")
+print("La cilindrada: ", miAuto.Cilindrada, "cc")
 print("El color: ", miAuto.color)
 print("La cantidad de puertas es: ", miAuto.puertas)
 print("La cantidad de ruedas es: ", miAuto.ruedas)
